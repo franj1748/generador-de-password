@@ -1,0 +1,18 @@
+{
+  "name": "archivos_de_configuracion_jsdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "clean-jsdoc-theme": "^3.3.4",
+    "jsdoc": "^3.6.10"
+  }
+}

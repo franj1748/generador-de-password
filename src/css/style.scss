@@ -1,0 +1,56 @@
+body{
+    background-color: #8e0000 !important;
+}
+
+.lock{
+    font-size: 50px;
+} 
+
+.lock--generar{
+    font-size: 15px;
+}
+
+*::selection {
+	background:#f44336;
+	color:#000;
+}
+
+*::-moz-selection {
+	background:#f44336;
+	color:#000;
+}
+
+// Patrón de colores personalizados. 
+$primary: #546e7a;
+
+// Cambiando variables de Bootstrap. 
+$btn-border-radius: 2px;
+$input-border-radius-lg: 0px;
+$input-bg: #8e0000;
+$input-disabled-bg: #8e0000;
+$input-focus-box-shadow: none;
+$input-color: #ffffff;
+$form-feedback-icon-invalid: none;
+$form-feedback-icon-invalid-color: none;
+
+.btn-lg, .btn-group-lg > .btn {
+
+    --bs-btn-border-radius: 2px !important;
+}
+
+.form-control.is-invalid{
+    padding: 0 !important;
+}
+
+.popoverCustom {
+
+    --bs-popover-border-color: #8e0000;
+    --bs-popover-header-bg: #8e0000 ;
+    --bs-popover-header-color: var(--bs-white);
+}
+
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/variables'
